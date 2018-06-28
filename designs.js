@@ -1,6 +1,5 @@
 // When size is submitted by the user, call makeGrid()
-var inputSubmit = $('input[type="submit"]');
-inputSubmit.click(function (event) {
+$('#sizePicker').submit(function (event) {
 	clearGrid();
 	event.preventDefault();
 	makeGrid();
